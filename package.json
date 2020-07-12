@@ -40,7 +40,7 @@
     "got": "^10.5.5",
     "moment": "^2.24.0",
     "mongoose": "^5.8.11",
-    "mongoose-long": "^0.2.1",
+    "mongoose-long": "^0.3.0",
     "nestjs-mongoose-crud": "^1.2.2",
     "nestjs-typegoose": "^7.1.0",
     "reflect-metadata": "^0.1.13",
