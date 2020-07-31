@@ -34,7 +34,7 @@
     "@nestjs/platform-express": "^7.3.2",
     "@nestjs/swagger": "^4.5.12",
     "@typegoose/typegoose": "^7.3.0",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "class-validator": "^0.12.2",
     "fs-extra": "^9.0.1",
     "got": "^11.5.0",
