@@ -17,11 +17,14 @@ module.exports = {
     plugins: [
     ],
     parserOptions: {
+        parser: '@typescript-eslint/parser',
         ecmaVersion: new Date().getFullYear() - 1,
         sourceType: 'module',
         ecmaFeatures: {
             modules: true,
         },
+        project: './tsconfig.json',
+        tsconfigRootDir: __dirname,
     },
     parser: '@typescript-eslint/parser',
     rules: {
