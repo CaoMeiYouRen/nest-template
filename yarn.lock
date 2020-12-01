@@ -899,7 +899,7 @@
   resolved "https://registry.npm.taobao.org/@types/mime/download/@types/mime-2.0.3.tgz#c893b73721db73699943bfc3653b1deb7faa4a3a"
   integrity sha1-yJO3NyHbc2mZQ7/DZTsd63+qSjo=
 
-"@types/mongodb@*":
+"@types/mongodb@*", "@types/mongodb@^3.5.27":
   version "3.5.34"
   resolved "https://registry.npm.taobao.org/@types/mongodb/download/@types/mongodb-3.5.34.tgz?cache=0&sync_timestamp=1605850222602&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fmongodb%2Fdownload%2F%40types%2Fmongodb-3.5.34.tgz#eaa04b9a85906129fb9aab2eb63079edcf802a98"
   integrity sha1-6qBLmoWQYSn7mqsutjB57c+AKpg=
@@ -5075,16 +5075,17 @@ mongoose-long@^0.3.2:
   resolved "https://registry.npm.taobao.org/mongoose-long/download/mongoose-long-0.3.2.tgz#9e38773fc93c9c5ecfea200635878593ea577fb0"
   integrity sha1-njh3P8k8nF7P6iAGNYeFk+pXf7A=
 
-mongoose@^5.10.18:
-  version "5.10.18"
-  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.10.18.tgz?cache=0&sync_timestamp=1606658887769&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmongoose%2Fdownload%2Fmongoose-5.10.18.tgz#ec99a8bc524bd0fd2a82b5afd6f1f720f462c45f"
-  integrity sha1-7JmovFJL0P0qgrWv1vH3IPRixF8=
+mongoose@^5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.11.0.tgz#d3e84767ee438688cca01827bc042deaff4a6d91"
+  integrity sha512-PX8uOCztBxx68+sWV4EAioRs76gco1EZiu2BA0/saMaYrproU2HWtkXO9Tfbf+eFQMAnDdNKopoe3AKhen4mJQ==
   dependencies:
+    "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
     kareem "2.3.1"
     mongodb "3.6.3"
     mongoose-legacy-pluralize "1.0.2"
-    mpath "0.7.0"
+    mpath "0.8.0"
     mquery "3.2.2"
     ms "2.1.2"
     regexp-clone "1.0.0"
@@ -5092,10 +5093,10 @@ mongoose@^5.10.18:
     sift "7.0.1"
     sliced "1.0.1"
 
-mpath@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.npm.taobao.org/mpath/download/mpath-0.7.0.tgz?cache=0&sync_timestamp=1605373127733&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmpath%2Fdownload%2Fmpath-0.7.0.tgz#20e8102e276b71709d6e07e9f8d4d0f641afbfb8"
-  integrity sha1-IOgQLidrcXCdbgfp+NTQ9kGvv7g=
+mpath@0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.8.0.tgz#48bc1da84e75519d4d74ee6242a4a7e16b4e1997"
+  integrity sha512-slIifXzF6pBxKpPV47ScgqWfGgkpwZNy55fY/umDrgmAxjWMz/WYzYsd8cThU49kw0rLyPWTZaWrOlazaeW57Q==
 
 mquery@3.2.2:
   version "3.2.2"
