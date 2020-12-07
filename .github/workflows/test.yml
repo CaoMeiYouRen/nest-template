@@ -22,4 +22,5 @@ jobs:
           key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
       - run: yarn
       - run: npm run lint
+      - run: npm run test:e2e
       - run: npm run build
