@@ -5024,10 +5024,10 @@ mongoose-long@^0.3.2:
   resolved "https://registry.npm.taobao.org/mongoose-long/download/mongoose-long-0.3.2.tgz#9e38773fc93c9c5ecfea200635878593ea577fb0"
   integrity sha1-njh3P8k8nF7P6iAGNYeFk+pXf7A=
 
-mongoose@^5.11.4:
-  version "5.11.4"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.11.4.tgz#26c6be85bee47446570281f90331762751d8b995"
-  integrity sha512-80IyHZ1ID4dtmQAaAr1B1FO2hWxmKMqaGP4WBkZ7xDKY1WKiBxVr1j5fk+bedO/IqJWoVG4vdxQDYp7glqaKaA==
+mongoose@^5.11.5:
+  version "5.11.5"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.11.5.tgz#4f0505f717d20ed01424e5938947e17dcc6dec4f"
+  integrity sha512-uwSeALQ1+qamUZBrIe1D6/uCzlHvcSbNQPG9w02DJqF3VHJSFOX1RdoxJE/wTN6WW7tTV8NMdLDSdxKqfo8J1A==
   dependencies:
     "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
