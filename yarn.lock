@@ -543,15 +543,15 @@
     webpack "5.4.0"
     webpack-node-externals "2.5.2"
 
-"@nestjs/common@^7.5.5":
-  version "7.5.5"
-  resolved "https://registry.npm.taobao.org/@nestjs/common/download/@nestjs/common-7.5.5.tgz?cache=0&sync_timestamp=1606122984583&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40nestjs%2Fcommon%2Fdownload%2F%40nestjs%2Fcommon-7.5.5.tgz#9c8bfcbe32ef7768d87cb458084271f7e38cc32e"
-  integrity sha1-nIv8vjLvd2jYfLRYCEJx9+OMwy4=
+"@nestjs/common@^7.6.1":
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-7.6.1.tgz#d62a3207c6db031a44f0fdc55e207586149d9fd1"
+  integrity sha512-Tq95a6a0kP3rxtV49xal168QNx49JPfO3s6SZ01sCJMWJVtGy8KCaC8YHAx7+KYamH43K6bd9Qv0K9R8lZxEtg==
   dependencies:
     axios "0.21.0"
     iterare "1.2.1"
     tslib "2.0.3"
-    uuid "8.3.1"
+    uuid "8.3.2"
 
 "@nestjs/config@^0.6.0":
   version "0.6.1"
@@ -7184,10 +7184,15 @@ utils-merge@1.0.1:
   resolved "https://registry.npm.taobao.org/utils-merge/download/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@8.3.1, uuid@^8.3.0:
+uuid@8.3.1:
   version "8.3.1"
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-8.3.1.tgz?cache=0&sync_timestamp=1605962427926&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fuuid%2Fdownload%2Fuuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
   integrity sha1-K6LmygANpg/OWhlpVKskETHgWjE=
+
+uuid@8.3.2, uuid@^8.3.0:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 uuid@^3.3.2:
   version "3.4.0"
