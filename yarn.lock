@@ -3475,10 +3475,10 @@ google-libphonenumber@^3.2.8:
   resolved "https://registry.npm.taobao.org/google-libphonenumber/download/google-libphonenumber-3.2.15.tgz#3a01dc554dbf83c754f249c16df3605e5d154bb9"
   integrity sha1-OgHcVU2/g8dU8knBbfNgXl0VS7k=
 
-got@^11.8.0:
-  version "11.8.0"
-  resolved "https://registry.npm.taobao.org/got/download/got-11.8.0.tgz?cache=0&sync_timestamp=1603212283650&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgot%2Fdownload%2Fgot-11.8.0.tgz#be0920c3586b07fd94add3b5b27cb28f49e6545f"
-  integrity sha1-vgkgw1hrB/2UrdO1snyyj0nmVF8=
+got@^11.8.1:
+  version "11.8.1"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.1.tgz#df04adfaf2e782babb3daabc79139feec2f7e85d"
+  integrity sha512-9aYdZL+6nHmvJwHALLwKSUZ0hMwGaJGYv3hoPLPgnT8BoBXm1SjnZeky+91tfwJaDzun2s4RsBRy48IEYv2q2Q==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
