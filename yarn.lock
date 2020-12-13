@@ -583,10 +583,10 @@
   resolved "https://registry.npm.taobao.org/@nestjs/mapped-types/download/@nestjs/mapped-types-0.1.1.tgz#2fa9ff0f1ddbe66d5d1c80ae59df21c0ed0d1361"
   integrity sha1-L6n/Dx3b5m1dHICuWd8hwO0NE2E=
 
-"@nestjs/platform-express@^7.5.5":
-  version "7.5.5"
-  resolved "https://registry.npm.taobao.org/@nestjs/platform-express/download/@nestjs/platform-express-7.5.5.tgz#fc6bc076f345762d5d4f4c17bb502eec4b8f6783"
-  integrity sha1-/GvAdvNFdi1dT0wXu1Au7EuPZ4M=
+"@nestjs/platform-express@^7.6.1":
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-7.6.1.tgz#2209c3705e4b6eaaebcc9436221dffab0633be1c"
+  integrity sha512-B2ojW+jjfF9C7fkVdLLkA6fi/RfzJHEbtAbp67nOogGFOCeyxeW2bZSNg6qijPME+vJIMpsvDDowbIraWwbiVg==
   dependencies:
     body-parser "1.19.0"
     cors "2.8.5"
