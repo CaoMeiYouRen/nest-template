@@ -39,7 +39,7 @@
     "dayjs": "^1.10.3",
     "fs-extra": "^9.0.1",
     "got": "^11.8.1",
-    "mongoose": "^5.11.10",
+    "mongoose": "^5.11.11",
     "mongoose-long": "^0.3.2",
     "nestjs-mongoose-crud": "^2.0.0",
     "nestjs-typegoose": "^7.1.38",
