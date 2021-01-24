@@ -4,7 +4,11 @@ import moduleAlias from 'module-alias'
 moduleAlias.addAlias('@', path.join(__dirname, './'))
 import { NestFactory } from '@nestjs/core'
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
+import helmet from 'helmet'
 import { AppModule } from './app.module'
+import { AllExceptionsFilter } from './common/all-exceptions.filter'
+import { limiter } from './common/limit.middleware'
+import { TimeoutInterceptor } from './common/timeout.interceptor'
 
 async function bootstrap() {
     const app = await NestFactory.create(AppModule)
@@ -18,8 +22,13 @@ async function bootstrap() {
     SwaggerModule.setup('docs', app, document)
 
     app.enableCors({})
+    app.use(limiter)
+    app.use(helmet({}))
+    app.useGlobalFilters(new AllExceptionsFilter())
+    app.useGlobalInterceptors(new TimeoutInterceptor())
+
     await app.listen(PORT)
-    console.log(`Listen http://127.0.0.1:${PORT}/docs`)
+    console.log(`Docs http://127.0.0.1:${PORT}/docs`)
 }
 
 bootstrap()

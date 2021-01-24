@@ -15,7 +15,11 @@
         "outDir": "./dist",
         "baseUrl": "./",
         "incremental": true,
-        "paths": {},
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+        },
         "lib": [
             "esnext",
             "dom",

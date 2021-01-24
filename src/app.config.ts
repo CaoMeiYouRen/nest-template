@@ -11,8 +11,17 @@ for (let i = 0; i < modes.length; i++) {
         env = Object.assign(result.parsed, env)
     }
 }
-if (env.NODE_ENV === 'development') {
+
+export const NODE_ENV = env.NODE_ENV
+
+export const __DEV__ = NODE_ENV === 'development'
+
+if (__DEV__) {
     console.log(env)
 }
 
-export const PORT = parseInt(env.PORT || '3000')
+export const PORT = Number(env.PORT || 3000)
+
+export const TIMEOUT = Number(env.TIMEOUT || 10 * 1000)
+
+export const TZ = env.TZ || 'Asia/Shanghai'
