@@ -9,6 +9,7 @@ import { AppModule } from './app.module'
 import { AllExceptionsFilter } from './common/all-exceptions.filter'
 import { limiter } from './common/limit.middleware'
 import { TimeoutInterceptor } from './common/timeout.interceptor'
+import { consoleLogger, fileLogger } from './middlewares/logger.middleware'
 
 async function bootstrap() {
     const app = await NestFactory.create(AppModule)
@@ -24,6 +25,8 @@ async function bootstrap() {
     app.enableCors({})
     app.use(limiter)
     app.use(helmet({}))
+    app.use(fileLogger)
+    app.use(consoleLogger)
     app.useGlobalFilters(new AllExceptionsFilter())
     app.useGlobalInterceptors(new TimeoutInterceptor())
 
