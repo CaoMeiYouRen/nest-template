@@ -13,7 +13,7 @@ for (let i = 0; i < modes.length; i++) {
 }
 
 export const NODE_ENV = env.NODE_ENV
-
+console.log(`NODE_ENV=${JSON.stringify(NODE_ENV)}`)
 export const __DEV__ = NODE_ENV === 'development'
 
 if (__DEV__) {
@@ -21,7 +21,12 @@ if (__DEV__) {
 }
 
 export const PORT = Number(env.PORT || 3000)
+// 时区
+export const TZ = env.TZ || 'Asia/Shanghai'
 
 export const TIMEOUT = Number(env.TIMEOUT || 10 * 1000)
 
-export const TZ = env.TZ || 'Asia/Shanghai'
+// mongodb 配置
+export const MONGODB_URL = env.MONGODB_URL
+export const MONGODB_USER = env.MONGODB_USER
+export const MONGODB_PASSWORD = env.MONGODB_PASSWORD

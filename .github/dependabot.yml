@@ -12,3 +12,10 @@ updates:
       interval: "daily"
       time: "19:00"
       timezone: "Asia/Shanghai"
+    ignore:
+      - dependency-name: "mongoose"
+        versions:
+          - ">= 5.10.18"
+      - dependency-name: "@types/mongoose"
+        versions:
+          - ">= 5.10.2"

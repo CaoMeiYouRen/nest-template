@@ -19,21 +19,15 @@ describe('AppController (e2e)', () => {
         await app.init()
     })
 
-    it('/ (GET)', () => {
-        return request(app.getHttpServer())
-            .get('/')
-            .expect(200)
-    })
+    it('/ (GET)', () => request(app.getHttpServer())
+        .get('/')
+        .expect(200))
 
-    it('/error (GET)', () => {
-        return request(app.getHttpServer())
-            .get('/error')
-            .expect(500)
-    })
+    it('/error (GET)', () => request(app.getHttpServer())
+        .get('/error')
+        .expect(500))
 
-    it('/async-error (GET)', () => {
-        return request(app.getHttpServer())
-            .get('/async-error')
-            .expect(500)
-    })
+    it('/async-error (GET)', () => request(app.getHttpServer())
+        .get('/async-error')
+        .expect(500))
 })
