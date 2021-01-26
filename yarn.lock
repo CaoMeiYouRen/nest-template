@@ -632,13 +632,13 @@
     lodash "4.17.20"
     path-to-regexp "3.2.0"
 
-"@nestjs/testing@^7.6.5":
-  version "7.6.5"
-  resolved "https://registry.npm.taobao.org/@nestjs/testing/download/@nestjs/testing-7.6.5.tgz?cache=0&sync_timestamp=1609320315831&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40nestjs%2Ftesting%2Fdownload%2F%40nestjs%2Ftesting-7.6.5.tgz#e2ee5c8a26e303cba17de858b1d7f64d7b0eef98"
-  integrity sha1-4u5ciibjA8uhfehYsdf2TXsO75g=
+"@nestjs/testing@^7.6.6":
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-7.6.6.tgz#5b907582a862d2de0cec049cd14d827f6a6a84ff"
+  integrity sha512-RNPv+/f/ANdPkAqTPQ0jXG/WIOOVbbCMyvo4LrYa+l3QXiaX1M+vOJt6YURe3f/JADBmfum9mi44JikEyJw7ug==
   dependencies:
     optional "0.1.4"
-    tslib "2.0.3"
+    tslib "2.1.0"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
