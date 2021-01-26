@@ -584,17 +584,17 @@
     lodash.set "4.3.2"
     uuid "8.3.2"
 
-"@nestjs/core@^7.6.5":
-  version "7.6.5"
-  resolved "https://registry.npm.taobao.org/@nestjs/core/download/@nestjs/core-7.6.5.tgz?cache=0&sync_timestamp=1609320315613&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40nestjs%2Fcore%2Fdownload%2F%40nestjs%2Fcore-7.6.5.tgz#93c642d1abf8d3f09f8f78c262814eaf83bc2ad6"
-  integrity sha1-k8ZC0av40/Cfj3jCYoFOr4O8KtY=
+"@nestjs/core@^7.6.6":
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-7.6.6.tgz#84f070375840e3efdefd17a4530f26e52ecbb8d6"
+  integrity sha512-e7dY4HICvhzJmwS7DJ6UHuXkb7oAowzd37nqZIgtW3d0dYv7Fg6AGwwAiQlJInefDTjHeK3Fv3n2gK/KBSVHTw==
   dependencies:
     "@nuxtjs/opencollective" "0.3.2"
     fast-safe-stringify "2.0.7"
     iterare "1.2.1"
     object-hash "2.1.1"
     path-to-regexp "3.2.0"
-    tslib "2.0.3"
+    tslib "2.1.0"
     uuid "8.3.2"
 
 "@nestjs/mapped-types@0.3.0":
@@ -7147,11 +7147,6 @@ tsconfig-paths@3.9.0, tsconfig-paths@^3.4.0, tsconfig-paths@^3.9.0:
     json5 "^1.0.1"
     minimist "^1.2.0"
     strip-bom "^3.0.0"
-
-tslib@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.3.tgz?cache=0&sync_timestamp=1609887446826&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
-  integrity sha1-jgdBrEX8DCJuWKF7/D5kubxsphw=
 
 tslib@2.1.0, tslib@^2.0.1:
   version "2.1.0"
