@@ -35,7 +35,7 @@
     "@nestjs/swagger": "^4.7.13",
     "@typegoose/typegoose": "^7.4.8",
     "bcryptjs": "^2.4.3",
-    "class-transformer": "^0.3.2",
+    "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
     "dayjs": "^1.10.4",
     "dotenv": "^8.2.0",
