@@ -3556,10 +3556,10 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
-got@^11.8.1:
-  version "11.8.1"
-  resolved "https://registry.npm.taobao.org/got/download/got-11.8.1.tgz?cache=0&sync_timestamp=1607657989621&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgot%2Fdownload%2Fgot-11.8.1.tgz#df04adfaf2e782babb3daabc79139feec2f7e85d"
-  integrity sha1-3wSt+vLngrq7Paq8eROf7sL36F0=
+got@^11.8.2:
+  version "11.8.2"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.2.tgz#7abb3959ea28c31f3576f1576c1effce23f33599"
+  integrity sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
