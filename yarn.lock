@@ -683,10 +683,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@typegoose/typegoose@^7.4.8":
-  version "7.4.8"
-  resolved "https://registry.npm.taobao.org/@typegoose/typegoose/download/@typegoose/typegoose-7.4.8.tgz#0e117166b9ebcef556c896f2dd9635828dd630a0"
-  integrity sha1-DhFxZrnrzvVWyJby3ZY1go3WMKA=
+"@typegoose/typegoose@^7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-7.5.0.tgz#4931529251466d3f334dadf28d3c7fbca6c51348"
+  integrity sha512-505s1wo8oXCQJW0aMQgZkFyLaA0VAIGz+Rr1m1GXS3hzY62c0ucI7Jl8jeSdZfuzFBbyldVIu+Lk+egAgZymAQ==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.7.0"
