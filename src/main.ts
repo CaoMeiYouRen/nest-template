@@ -10,6 +10,7 @@ import { AllExceptionsFilter } from './common/all-exceptions.filter'
 import { limiter } from './common/limit.middleware'
 import { TimeoutInterceptor } from './common/timeout.interceptor'
 import { consoleLogger, fileLogger } from './middlewares/logger.middleware'
+import { ValidationPipe } from '@nestjs/common'
 
 async function bootstrap() {
     const app = await NestFactory.create(AppModule)
@@ -29,6 +30,7 @@ async function bootstrap() {
     app.use(consoleLogger)
     app.useGlobalFilters(new AllExceptionsFilter())
     app.useGlobalInterceptors(new TimeoutInterceptor())
+    app.useGlobalPipes(new ValidationPipe())
 
     await app.listen(PORT)
     console.log(`Docs http://127.0.0.1:${PORT}/docs`)
