@@ -75,7 +75,7 @@
     "cross-env": "^7.0.3",
     "debug": "^4.3.1",
     "eslint": "^7.21.0",
-    "eslint-config-cmyr": "^1.0.10",
+    "eslint-config-cmyr": "^1.1.10",
     "gulp": "^4.0.2",
     "jest": "^26.6.3",
     "supertest": "^6.1.3",
