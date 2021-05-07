@@ -1,4 +1,4 @@
-import { prop, modelOptions, DocumentType } from '@typegoose/typegoose'
+import { prop, modelOptions, DocumentType, ReturnModelType } from '@typegoose/typegoose'
 import { ApiProperty } from '@nestjs/swagger'
 import { hashSync } from 'bcryptjs'
 import { IsNotEmpty, Length } from 'class-validator'
@@ -46,3 +46,5 @@ export class User {
 }
 
 export type UserDocument = DocumentType<User>
+
+export type UserModel = ReturnModelType<typeof User>
