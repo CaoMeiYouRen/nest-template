@@ -3631,10 +3631,10 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-helmet@^4.4.1:
-  version "4.4.1"
-  resolved "https://registry.npm.taobao.org/helmet/download/helmet-4.4.1.tgz#a17e1444d81d7a83ddc6e6f9bc6e2055b994efe7"
-  integrity sha1-oX4URNgdeoPdxub5vG4gVbmU7+c=
+helmet@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.6.0.tgz#579971196ba93c5978eb019e4e8ec0e50076b4df"
+  integrity sha512-HVqALKZlR95ROkrnesdhbbZJFi/rIVSoNq6f3jA/9u6MIbTsPh3xZwihjeI5+DO/2sOV6HMHooXcEOuwskHpTg==
 
 homedir-polyfill@^1.0.1:
   version "1.0.3"
@@ -7085,11 +7085,6 @@ tsconfig-paths@3.9.0, tsconfig-paths@^3.9.0:
     json5 "^1.0.1"
     minimist "^1.2.0"
     strip-bom "^3.0.0"
-
-tslib@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.1.0.tgz?cache=0&sync_timestamp=1609887446826&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
-  integrity sha1-2mCGDxwuyqVwOrfTm8Bba/mIuXo=
 
 tslib@2.2.0, tslib@^2.0.1:
   version "2.2.0"

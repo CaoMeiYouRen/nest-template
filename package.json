@@ -43,7 +43,7 @@
     "file-stream-rotator": "^0.5.7",
     "fs-extra": "^9.1.0",
     "got": "^11.8.2",
-    "helmet": "^4.4.1",
+    "helmet": "^4.6.0",
     "module-alias": "^2.2.2",
     "mongoose": "5.10.18",
     "mongoose-long": "^0.3.2",
