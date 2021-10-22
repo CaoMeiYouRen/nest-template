@@ -5237,10 +5237,10 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose-long@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/mongoose-long/-/mongoose-long-0.4.1.tgz#bad9d7f5b480bf4e7b5f1891ba3d0374780d85f2"
-  integrity sha512-TSGDWT+kwx802GaHAqNqcGA0VjyXHFhwi60hZkyN5ULIZUSoLpj1fSusVORPRr5xzaA2BTDoVwVlny0DP9oLhA==
+mongoose-long@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/mongoose-long/-/mongoose-long-0.5.0.tgz#1ec2189473f425cbc9a38053ce1f03e0bf3ff992"
+  integrity sha512-1TPUV0TPs9DGzUH4O1EnH7NjXLEc9pxfv4d7CR4kk8SOGBRDdQE9lD+9oYAEqa5hs542CSNPp/uspS7qbSVmvA==
 
 mongoose@5.10.18:
   version "5.10.18"
