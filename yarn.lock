@@ -7000,17 +7000,17 @@ sver-compat@^1.5.0:
     es6-iterator "^2.0.1"
     es6-symbol "^3.1.1"
 
-swagger-ui-dist@^3.18.1:
-  version "3.40.0"
-  resolved "https://registry.npm.taobao.org/swagger-ui-dist/download/swagger-ui-dist-3.40.0.tgz#7e607103a3c432da9559f4c4d8c22832a9759be5"
-  integrity sha1-fmBxA6PEMtqVWfTE2MIoMql1m+U=
+swagger-ui-dist@>3.52.5:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/swagger-ui-dist/-/swagger-ui-dist-4.1.2.tgz#5dd182400eaead52511707b50bde29672a975794"
+  integrity sha512-Pj960coj9L0nAQPE1vgBzHulKGPNw1ifn/1GTIv/mlV9V3PoRM0uTcE0uhTiizx6aHg+vnFFmbA2J1gjFekOaQ==
 
-swagger-ui-express@^4.1.6:
-  version "4.1.6"
-  resolved "https://registry.npm.taobao.org/swagger-ui-express/download/swagger-ui-express-4.1.6.tgz#682294af3d5c70f74a1fa4d6a9b503a9ee55ea82"
-  integrity sha1-aCKUrz1ccPdKH6TWqbUDqe5V6oI=
+swagger-ui-express@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/swagger-ui-express/-/swagger-ui-express-4.2.0.tgz#98797cc147071170670415c9193951cfbde173bd"
+  integrity sha512-znrHTwh9UpvsjqgWopA4noIet7mi7UGuIYZ465YfUDKQ5Dpas0jxnkfUKCo+0aB17YCBv26AhIjiQYDV4uvJFA==
   dependencies:
-    swagger-ui-dist "^3.18.1"
+    swagger-ui-dist ">3.52.5"
 
 symbol-observable@4.0.0:
   version "4.0.0"
