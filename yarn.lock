@@ -2270,10 +2270,15 @@ colorette@^1.2.2:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
-colors@1.4.0, colors@^1.4.0:
+colors@1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/colors/download/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha1-xQSRR51MG9rtLJztMs98fcI2D3g=
+
+colors@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.2.tgz#cd4fe227412ca2c75bb6f5683ec2e5e68de4f317"
+  integrity sha512-5QhJWPFZqkKIieXJPpCprdOytvH7v0AGWpu9K2jZ4LWkGg3dVBNoYPgGGRpEsc0jb8Boy0ElYrdjH9uXfhRSqw==
 
 combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
   version "1.0.8"
