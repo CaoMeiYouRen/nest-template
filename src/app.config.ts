@@ -14,7 +14,7 @@ for (let i = 0; i < modes.length; i++) {
 const env = process.env
 
 export const NODE_ENV = env.NODE_ENV
-console.log(`NODE_ENV=${JSON.stringify(NODE_ENV)}`)
+
 export const __DEV__ = NODE_ENV === 'development'
 
 if (__DEV__) {
