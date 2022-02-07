@@ -766,10 +766,10 @@
   resolved "https://registry.npmmirror.com/@tsconfig/node16/download/@tsconfig/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha1-Qjx3h30Fadsg4fyAiFrEEYMUAQ4=
 
-"@typegoose/typegoose@^9.5.0":
-  version "9.5.0"
-  resolved "https://registry.npmmirror.com/@typegoose/typegoose/download/@typegoose/typegoose-9.5.0.tgz#77288fcbdf25033953bbdf93cd74704f0cffcafc"
-  integrity sha512-efRfxBpVxUivyQwfHbEcAHMPzibANKcZN85bxmBYuPY5yt9ocuozWXBn6Jy4sKXtmAf/Di0nLZNTJgIClB8EnQ==
+"@typegoose/typegoose@^9.6.1":
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-9.6.1.tgz#423cc60b1b1a92b587edcac646ae71f9d9b81f8b"
+  integrity sha512-FUHC/kJCy66iTbH42INtNkVb76n0a9drIdB/MmTgyR4uxjjh6gTU8Na38jnFsYm1OVinFV452VmTmdl/CeZSWw==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.8.0"
