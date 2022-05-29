@@ -2,8 +2,7 @@ import { TIMEOUT } from '@/app.config'
 import { HttpError } from '@/models/HttpError'
 import { HttpStatusCode } from '@/models/HttpStatusCode'
 import { Injectable, NestInterceptor, ExecutionContext, CallHandler } from '@nestjs/common'
-import { throwError, TimeoutError } from 'rxjs'
-import { catchError, timeout } from 'rxjs/operators'
+import { throwError, TimeoutError, catchError, timeout } from 'rxjs'
 
 @Injectable()
 export class TimeoutInterceptor implements NestInterceptor {
