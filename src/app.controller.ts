@@ -1,7 +1,10 @@
+import os from 'os'
 import { Controller, Get } from '@nestjs/common'
 import { AppService } from './app.service'
 import { HttpError } from './models/HttpError'
 import { sleep } from './utils/helper'
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { name, version } = require('../package.json')
 
 @Controller()
 export class AppController {
@@ -27,6 +30,17 @@ export class AppController {
         await sleep(11 * 1000)
         return {
             message: '测试请求超时',
+        }
+    }
+
+    @Get('/status')
+    async getStatus() {
+        return {
+            name,
+            version,
+            nodeVersion: process.versions.node,
+            type: os.type(),
+            hostname: os.hostname(),
         }
     }
 }
