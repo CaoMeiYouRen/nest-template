@@ -907,16 +907,16 @@
   resolved "https://registry.npmmirror.com/@tsconfig/node16/download/@tsconfig/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha1-Qjx3h30Fadsg4fyAiFrEEYMUAQ4=
 
-"@typegoose/typegoose@^9.8.1":
-  version "9.8.1"
-  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-9.8.1.tgz#0160ffed706c47195f3971bceb8af2f98ad9f3c7"
-  integrity sha512-7m9ydYlzOSwxgFRWOrUK/wiNb1GBHLaztGQBkWsiGIIy4P2AmiHKKlwB34DaQEtvwWa8MxEDXtUWA04a3KSFjg==
+"@typegoose/typegoose@^9.9.0":
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-9.9.0.tgz#ea6e9bcc0d7f55055513f1daeba9bd0c8cdd4e3c"
+  integrity sha512-n29N5Lp5gIV+mSx//LoJxIsOIMpwX5ptx/+KkzPblRf6CD2DZ9gGMqTd3iIbN+8Re/7Vmkj9dkw/URenxlb2yA==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.8.0"
     reflect-metadata "^0.1.13"
     semver "^7.3.7"
-    tslib "^2.3.1"
+    tslib "^2.4.0"
 
 "@types/babel__core@^7.1.14":
   version "7.1.19"
@@ -6730,7 +6730,7 @@ tsconfig-paths@^4.0.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@2.4.0, tslib@^2.1.0, tslib@^2.3.1:
+tslib@2.4.0, tslib@^2.1.0, tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
