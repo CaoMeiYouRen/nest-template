@@ -1,4 +1,4 @@
-import { PORT } from './app.config'
+import { PORT, __DEV__ } from './app.config'
 import path from 'path'
 import moduleAlias from 'module-alias'
 moduleAlias.addAlias('@', path.join(__dirname, './'))
@@ -15,15 +15,16 @@ import { ValidationPipe } from '@nestjs/common'
 
 async function bootstrap() {
     const app = await NestFactory.create<NestExpressApplication>(AppModule)
-    const options = new DocumentBuilder()
-        .setTitle('nest template docs')
-        .setDescription('nest template docs')
-        .setVersion('0.1.0')
-        // .addBearerAuth()
-        .build()
-    const document = SwaggerModule.createDocument(app, options)
-    SwaggerModule.setup('docs', app, document)
-
+    if (__DEV__) {
+        const options = new DocumentBuilder()
+            .setTitle('nest template docs')
+            .setDescription('nest template docs')
+            .setVersion('0.1.0')
+            // .addBearerAuth()
+            .build()
+        const document = SwaggerModule.createDocument(app, options)
+        SwaggerModule.setup('docs', app, document)
+    }
     app.enableCors({})
     app.use(limiter)
     app.use(helmet({}))
