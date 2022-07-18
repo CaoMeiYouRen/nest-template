@@ -833,10 +833,10 @@
     lodash "4.17.21"
     path-to-regexp "3.2.0"
 
-"@nestjs/testing@^9.0.3":
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.0.3.tgz#bad065fc377091531dbfe651c6bb3415abde5a75"
-  integrity sha512-6pLtQLblbBOukiABR6ty2HOpW2Z1lUJmP3mqKVFc11n7ZoF5kDxYaDTxdbMlcynye8eH7ehRvzsGnNJJmLlaSA==
+"@nestjs/testing@^9.0.4":
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.0.4.tgz#5a7017bb5fd439c4d5fcfe4f8d593f1e4e541981"
+  integrity sha512-N/fq2qv6GhUyZpfTSD4TAS+egMTPConCSQ9zp+t8m2zKNmWQ8AR2dLwiU0VQqQlUJRdoxZHdL4eeU6kNVd7fNw==
   dependencies:
     tslib "2.4.0"
 
@@ -6742,7 +6742,7 @@ tsconfig-paths@^4.0.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@2.4.0, tslib@^2.1.0, tslib@^2.3.1:
+tslib@2.4.0, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
