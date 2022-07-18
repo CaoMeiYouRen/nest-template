@@ -76,7 +76,7 @@
     "@typescript-eslint/parser": "5.30.6",
     "cross-env": "^7.0.3",
     "debug": "^4.3.4",
-    "eslint": "^8.19.0",
+    "eslint": "^8.20.0",
     "eslint-config-cmyr": "^1.1.21",
     "gulp": "^4.0.2",
     "jest": "^28.1.3",
