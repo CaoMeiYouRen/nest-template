@@ -848,10 +848,10 @@
     lodash "4.17.21"
     path-to-regexp "3.2.0"
 
-"@nestjs/testing@^9.0.6":
-  version "9.0.6"
-  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.0.6.tgz#373fea5a0a33e6e98bdf3461a3b3a867eb8fedd5"
-  integrity sha512-qsOb9bf+95L5KWeXBAQFkhDRgoJ6BcY5Vzm8NGOrwKGWT6cUvvFtpVeU3jOeuKB8c4cX0HXZCTAm0vT55fQhRg==
+"@nestjs/testing@^9.0.7":
+  version "9.0.7"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.0.7.tgz#b5eaf5a2157a414cb71ab4d4a9aa4d9850ea6cc4"
+  integrity sha512-dBH+J4wcc+vJiAq9PDFs3NPIj/TNTbyYiNR9Jc/nvbLhlWb/oGz0kcOOqN7K84TAI6zb+RRjTLU7hgHGXj3ldQ==
   dependencies:
     tslib "2.4.0"
 
