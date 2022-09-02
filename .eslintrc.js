@@ -12,6 +12,7 @@ module.exports = {
     ],
     rules: {
         'no-useless-constructor': 0,
-        'no-console': 0
+        'no-console': 0,
+        '@typescript-eslint/indent': 0
     },
 }
