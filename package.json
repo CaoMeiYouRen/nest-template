@@ -34,6 +34,7 @@
     "@nestjs/platform-express": "^9.0.11",
     "@nestjs/swagger": "^6.1.1",
     "@typegoose/typegoose": "^9.8.1",
+    "axios": "^0.27.2",
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
@@ -43,10 +44,9 @@
     "express-rate-limit": "^6.5.2",
     "file-stream-rotator": "^0.6.1",
     "fs-extra": "^10.1.0",
-    "got": "^12.3.1",
     "helmet": "^6.0.0",
     "module-alias": "^2.2.2",
-    "mongoose": "^6.1.8",
+    "mongoose": "^6.5.5",
     "mongoose-long": "^0.5.1",
     "morgan": "^1.10.0",
     "nestjs-mongoose-crud": "^2.1.2",
@@ -103,7 +103,9 @@
   },
   "pnpm": {
     "overrides": {
-      "@types/superagent": "4.1.14"
+      "@types/superagent": "4.1.14",
+      "mongodb": "^4.8.1",
+      "mongoose": "^6.5.5"
     },
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -113,5 +115,15 @@
         "webpack"
       ]
     }
+  },
+  "overrides": {
+    "@types/superagent": "4.1.14",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.5"
+  },
+  "resolutions": {
+    "@types/superagent": "4.1.14",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.5"
   }
 }
