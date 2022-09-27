@@ -4,6 +4,7 @@ import { AppService } from './app.service'
 import { CommonModule } from './common/common.module'
 import { DbModule } from './db/db.module'
 import { UserController } from './controllers/user/user.controller'
+import { UserService } from './services/user/user.service'
 
 @Module({
     imports: [
@@ -14,6 +15,6 @@ import { UserController } from './controllers/user/user.controller'
         AppController,
         // UserController,
     ],
-    providers: [AppService],
+    providers: [AppService, UserService],
 })
 export class AppModule { }
