@@ -40,7 +40,7 @@
     "class-validator": "^0.13.2",
     "colors": "^1.4.0",
     "dayjs": "^1.11.5",
-    "dotenv": "^16.0.2",
+    "dotenv": "^16.0.3",
     "express-rate-limit": "^6.5.2",
     "file-stream-rotator": "^0.6.1",
     "fs-extra": "^10.1.0",
