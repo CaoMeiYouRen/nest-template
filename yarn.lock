@@ -4761,10 +4761,10 @@ mongodb@4.8.1, mongodb@^4.8.1:
   optionalDependencies:
     saslprep "^1.0.3"
 
-mongoose-long@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.npmmirror.com/mongoose-long/-/mongoose-long-0.5.1.tgz#4222127d202f9b4404c39850de3cb774534220f4"
-  integrity sha512-1gJAFQ36ouFpAHcT3Q1Nwn4C2j797fZJAjzTZA82dE9d6r0jGatQLL4zbL2b9KRYCz+tVRoBW9Rbw9yPY6iHgw==
+mongoose-long@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/mongoose-long/-/mongoose-long-0.6.0.tgz#21f34051206b0f47cf7973136cfc30f6f4d76b88"
+  integrity sha512-yfniuvlo5vWMw6cV2xPVNhaxg/lgTxSXXFGI99HD3vK2fnZ0xwHJ0rzrRoYSsKwK+JFhhCciH54urY/HR9b4hg==
 
 mongoose@^6.5.5:
   version "6.5.5"
