@@ -55,7 +55,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.5.7",
     "swagger-ui-express": "^4.5.0",
-    "tslib": "^2.4.0"
+    "tslib": "^2.4.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.1.5",
