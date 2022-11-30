@@ -44,7 +44,7 @@
     "express-rate-limit": "^6.7.0",
     "file-stream-rotator": "^1.0.0",
     "fs-extra": "^11.1.0",
-    "helmet": "^6.0.0",
+    "helmet": "^6.0.1",
     "module-alias": "^2.2.2",
     "mongoose": "^6.5.5",
     "mongoose-long": "^0.6.0",
