@@ -69,7 +69,7 @@
     "@types/jest": "^28.1.8",
     "@types/module-alias": "^2.0.1",
     "@types/morgan": "^1.9.3",
-    "@types/node": "^18.11.14",
+    "@types/node": "^18.11.15",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "5.46.1",
