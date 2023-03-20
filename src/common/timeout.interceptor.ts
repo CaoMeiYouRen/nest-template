@@ -11,9 +11,9 @@ export class TimeoutInterceptor implements NestInterceptor {
             timeout(TIMEOUT),
             catchError((err) => {
                 if (err instanceof TimeoutError) {
-                    return throwError(new HttpError(HttpStatusCode.REQUEST_TIMEOUT, '请求超时'))
+                    return throwError(() => new HttpError(HttpStatusCode.REQUEST_TIMEOUT, '请求超时'))
                 }
-                return throwError(err)
+                return throwError(() => err)
             }),
         )
     }

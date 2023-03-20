@@ -3,10 +3,10 @@ import {
     Catch,
     ArgumentsHost,
     HttpException,
+    Logger,
 } from '@nestjs/common'
 import { Response } from 'express'
 import { HttpError } from '@/models/HttpError'
-import { Log } from '@/utils/helper'
 import { ErrorMessageList } from '@/constant/ErrorMessageList'
 import { HttpStatusCode } from '@/models/HttpStatusCode'
 import { __DEV__ } from '@/app.config'
@@ -24,6 +24,9 @@ import { ResponseDto } from '@/models/ResponseDto'
  */
 @Catch()
 export class AllExceptionsFilter<T extends Error> implements ExceptionFilter {
+
+    private readonly logger = new Logger(AllExceptionsFilter.name)
+
     catch(e: T, host: ArgumentsHost) {
         const ctx = host.switchToHttp()
         const response = ctx.getResponse<Response>()
@@ -48,9 +51,9 @@ export class AllExceptionsFilter<T extends Error> implements ExceptionFilter {
         }
         if (__DEV__ && e instanceof Error) {
             stack = e.stack
-            Log.error(e)
+            this.logger.error(message, e?.stack)
         } else if (statusCode >= HttpStatusCode.INTERNAL_SERVER_ERROR) { // 500
-            Log.error(e)
+            this.logger.error(message, e?.stack)
         }
         response.status(statusCode)
             .json(new ResponseDto({
