@@ -2,7 +2,7 @@ import morgan from 'morgan'
 import path from 'path'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import FileStreamRotator from 'file-stream-rotator'
+import * as FileStreamRotator from 'file-stream-rotator'
 import { timeFormat } from '@/utils/helper'
 const logDir = path.resolve('logs')
 morgan.token('time', () => timeFormat(Date.now(), 'YYYY-MM-DD HH:mm:ss.SSSZ'))
