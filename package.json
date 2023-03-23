@@ -10,7 +10,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">= 10.13.0"
+    "node": ">= 12.9.0"
   },
   "scripts": {
     "lint": "cross-env NODE_ENV=production eslint src test --fix --ext .ts,.js",
