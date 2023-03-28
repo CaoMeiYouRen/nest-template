@@ -47,7 +47,6 @@
     "helmet": "^6.0.1",
     "module-alias": "^2.2.2",
     "mongoose": "^6.5.5",
-    "mongoose-long": "^0.6.0",
     "morgan": "^1.10.0",
     "nestjs-mongoose-crud": "^2.1.2",
     "nestjs-typegoose-next": "^0.1.4",
@@ -104,8 +103,9 @@
   "pnpm": {
     "overrides": {
       "@types/superagent": "4.1.14",
-      "mongodb": "^4.8.1",
-      "mongoose": "^6.5.5"
+      "@typegoose/typegoose": "9.12.1",
+      "mongodb": "4.9.1",
+      "mongoose": "6.6.3"
     },
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -118,12 +118,14 @@
   },
   "overrides": {
     "@types/superagent": "4.1.14",
-    "mongodb": "^4.8.1",
-    "mongoose": "^6.5.5"
+    "@typegoose/typegoose": "9.12.1",
+    "mongodb": "4.9.1",
+    "mongoose": "6.6.3"
   },
   "resolutions": {
     "@types/superagent": "4.1.14",
-    "mongodb": "^4.8.1",
-    "mongoose": "^6.5.5"
+    "@typegoose/typegoose": "9.12.1",
+    "mongodb": "4.9.1",
+    "mongoose": "6.6.3"
   }
 }

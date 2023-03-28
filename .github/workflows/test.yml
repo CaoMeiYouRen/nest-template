@@ -6,6 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: "latest"
       - name: Setup Node.js@lts environment
         uses: actions/setup-node@v3
         with:
@@ -20,7 +24,7 @@ jobs:
             !~/cache/exclude
             **/node_modules
           key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
-      - run: yarn
-      - run: npm run lint
-      - run: npm run build
-      - run: npm run test:e2e
+      - run: pnpm i --fix-lockfile
+      - run: pnpm run lint
+      - run: pnpm run build
+      - run: pnpm run test:e2e
