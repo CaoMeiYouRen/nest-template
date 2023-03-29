@@ -778,9 +778,9 @@
     path-to-regexp "3.2.0"
     swagger-ui-dist "4.15.5"
 
-"@nestjs/testing@^9.2.1":
+"@nestjs/testing@^9.3.12":
   version "9.3.12"
-  resolved "https://registry.npmmirror.com/@nestjs/testing/-/testing-9.3.12.tgz#e02ed34c9a267ba9495ba7f5e3d83d4956e3414f"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.3.12.tgz#e02ed34c9a267ba9495ba7f5e3d83d4956e3414f"
   integrity sha512-nH274IXEqU4hr4bcb71POe58hYLONt9RcfKKM5ZvOS7wYMnybMpKKR8DkC1WcfE1P2k2GQmQoHeSH5emPtYrBA==
   dependencies:
     tslib "2.5.0"
@@ -865,16 +865,16 @@
     semver "^7.3.7"
     tslib "^2.4.0"
 
-"@typegoose/typegoose@^9.8.1":
-  version "9.13.2"
-  resolved "https://registry.npmmirror.com/@typegoose/typegoose/-/typegoose-9.13.2.tgz#0f066fdcb114decdd390ed0ab63e1f4e8df71315"
-  integrity sha512-yEP+Ai+xASUnRR2ZSz2cf7QC4QqhkDPyt42Gt5yfn6dOFMGNFew+4L1BDRbexaeKBQYYrgxtD7yM8kzuceeJ9Q==
+"@typegoose/typegoose@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-11.0.0.tgz#e48e58c2928eacbb95981d41f76a605e56358107"
+  integrity sha512-X9v0LY4fqoIGKwS1KkzTNztynckksVPvgWDKXJSuTpVJOfO5XG8B6aRjS7QYlmiCimPu6d3ihrHTzxKUqKAdhg==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.8.1"
     reflect-metadata "^0.1.13"
     semver "^7.3.8"
-    tslib "^2.4.1"
+    tslib "^2.5.0"
 
 "@types/babel__core@^7.1.14":
   version "7.20.0"
@@ -6624,7 +6624,7 @@ tsconfig-paths@4.1.2, tsconfig-paths@^4.1.2:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@2.5.0, tslib@^2.1.0, tslib@^2.4.0, tslib@^2.4.1, tslib@^2.5.0:
+tslib@2.5.0, tslib@^2.1.0, tslib@^2.4.0, tslib@^2.5.0:
   version "2.5.0"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
   integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==
