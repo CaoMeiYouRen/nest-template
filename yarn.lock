@@ -864,10 +864,10 @@
     semver "^7.3.7"
     tslib "^2.4.0"
 
-"@typegoose/typegoose@^11.0.2":
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-11.0.2.tgz#daf8d78144c8016973a1280c358fb356bd548276"
-  integrity sha512-3xr1MvafgOvWKX1bzo1UDPvf/57zDvJ4Af3In6xD9vYKUJeYImA8cqSYOwF77xRebI+Rsr3FrtkY6HMmQZ6UHg==
+"@typegoose/typegoose@^11.0.3":
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-11.0.3.tgz#0ef5bd238b40fc0349afbec0f0d9172aa38c7841"
+  integrity sha512-U3hhJzc2sVqdoTozqMiE8/aqBRXLgywLclacWyw0rXmjZQr2MUuVEtFIWTTCb9JAgmdjE8E53uPOXB3fjRNcKw==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.8.1"
