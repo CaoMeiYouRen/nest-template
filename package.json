@@ -31,7 +31,7 @@
     "@nestjs/common": "^9.4.3",
     "@nestjs/config": "^2.3.2",
     "@nestjs/core": "^9.4.3",
-    "@nestjs/platform-express": "^9.4.2",
+    "@nestjs/platform-express": "^9.4.3",
     "@nestjs/swagger": "^6.3.0",
     "@typegoose/typegoose": "^11.2.0",
     "axios": "^1.4.0",
