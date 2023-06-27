@@ -757,10 +757,10 @@
     jsonc-parser "3.2.0"
     pluralize "8.0.0"
 
-"@nestjs/swagger@^7.0.5":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-7.0.5.tgz#76d932ba0232f10f8f9541b0384f50d2fc58399f"
-  integrity sha512-U0vlr3bqGZKR4lyAUm9LzDY7pEUP4xmjlV0aDKAfHHLAmLUEHVsSMVnJkYATm3VZuKvPLctgsu2DuMThuzJvjQ==
+"@nestjs/swagger@^7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-7.0.10.tgz#0ed9ff6ff7b8f5b4f4a476685e8525f49ebb362e"
+  integrity sha512-3tA3c6ZrrQ/DucIef8Sg1rnYDviWv7acs7Zj0m4DfNJsVSTxcJ9u47a0AK7saGlDlCqXMbS0DcG9jOKTNdfKfg==
   dependencies:
     "@nestjs/mapped-types" "2.0.2"
     js-yaml "4.1.0"
