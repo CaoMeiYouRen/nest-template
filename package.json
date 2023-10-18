@@ -67,7 +67,7 @@
     "@types/fs-extra": "^11.0.2",
     "@types/jest": "^28.1.8",
     "@types/module-alias": "^2.0.2",
-    "@types/morgan": "^1.9.6",
+    "@types/morgan": "^1.9.7",
     "@types/node": "^20.8.6",
     "@types/supertest": "^2.0.14",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
