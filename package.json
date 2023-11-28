@@ -43,7 +43,7 @@
     "dotenv": "^16.3.1",
     "express-rate-limit": "^7.1.4",
     "file-stream-rotator": "^1.0.0",
-    "fs-extra": "^11.1.0",
+    "fs-extra": "^11.2.0",
     "helmet": "^7.1.0",
     "module-alias": "^2.2.3",
     "mongoose": "^6.5.5",
