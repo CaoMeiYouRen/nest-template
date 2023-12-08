@@ -9,6 +9,7 @@
   "author": "CaoMeiYouRen",
   "license": "MIT",
   "private": true,
+  "main": "dist/main.js",
   "engines": {
     "node": ">= 12.9.0"
   },
