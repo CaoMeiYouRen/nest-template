@@ -104,7 +104,7 @@
   "pnpm": {
     "overrides": {
       "@types/superagent": "4.1.14",
-      "@typegoose/typegoose": "9.12.1",
+      "@typegoose/typegoose": "12.3.0",
       "mongodb": "4.17.0",
       "mongoose": "6.11.3"
     },
@@ -119,13 +119,13 @@
   },
   "overrides": {
     "@types/superagent": "4.1.14",
-    "@typegoose/typegoose": "9.12.1",
+    "@typegoose/typegoose": "12.3.0",
     "mongodb": "4.17.0",
     "mongoose": "6.11.3"
   },
   "resolutions": {
     "@types/superagent": "4.1.14",
-    "@typegoose/typegoose": "9.12.1",
+    "@typegoose/typegoose": "12.3.0",
     "mongodb": "4.17.0",
     "mongoose": "6.11.3"
   }
