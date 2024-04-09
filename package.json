@@ -47,7 +47,7 @@
     "fs-extra": "^11.2.0",
     "helmet": "^7.1.0",
     "module-alias": "^2.2.3",
-    "mongoose": "^6.5.5",
+    "mongoose": "6.11.3",
     "morgan": "^1.10.0",
     "nestjs-mongoose-crud": "^2.1.2",
     "nestjs-typegoose-next": "^0.1.4",
@@ -105,8 +105,8 @@
     "overrides": {
       "@types/superagent": "4.1.14",
       "@typegoose/typegoose": "9.12.1",
-      "mongodb": "4.9.1",
-      "mongoose": "6.6.3"
+      "mongodb": "4.17.0",
+      "mongoose": "6.11.3"
     },
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -120,13 +120,13 @@
   "overrides": {
     "@types/superagent": "4.1.14",
     "@typegoose/typegoose": "9.12.1",
-    "mongodb": "4.9.1",
-    "mongoose": "6.6.3"
+    "mongodb": "4.17.0",
+    "mongoose": "6.11.3"
   },
   "resolutions": {
     "@types/superagent": "4.1.14",
     "@typegoose/typegoose": "9.12.1",
-    "mongodb": "4.9.1",
-    "mongoose": "6.6.3"
+    "mongodb": "4.17.0",
+    "mongoose": "6.11.3"
   }
 }
