@@ -88,8 +88,8 @@ dependencies:
     specifier: ^7.8.1
     version: 7.8.1
   swagger-ui-express:
-    specifier: ^5.0.0
-    version: 5.0.0
+    specifier: ^5.0.1
+    version: 5.0.1
   tslib:
     specifier: ^2.6.2
     version: 2.6.2
@@ -6683,8 +6683,8 @@ packages:
     resolution: {integrity: sha512-7qsKvc3gs5dnEIOclY4xkzacY85Pu9a/Gzkf+eezKLQ4BpErlI8BxYWADhnCx6PmFyU4fxH4AMKH+/d3Kml0Gg==}
     dev: false
 
-  /swagger-ui-express@5.0.0:
-    resolution: {integrity: sha512-tsU9tODVvhyfkNSvf03E6FAk+z+5cU3lXAzMy6Pv4av2Gt2xA0++fogwC4qo19XuFf6hdxevPuVCSKFuMHJhFA==}
+  /swagger-ui-express@5.0.1:
+    resolution: {integrity: sha512-SrNU3RiBGTLLmFU8GIJdOdanJTl4TOmT27tt3bWWHppqYmAZ6IDuEuBvMU6nZq0zLEe6b/1rACXCgLZqO6ZfrA==}
     engines: {node: '>= v0.10.32'}
     peerDependencies:
       express: '>=4.0.0 || >=5.0.0-beta'
