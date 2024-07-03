@@ -58,7 +58,7 @@
     "tslib": "^2.6.3"
   },
   "devDependencies": {
-    "@nestjs/cli": "^10.4.0",
+    "@nestjs/cli": "^10.4.1",
     "@nestjs/schematics": "^10.1.2",
     "@nestjs/testing": "^10.3.10",
     "@types/bcryptjs": "^2.4.6",
