@@ -55,8 +55,8 @@ importers:
         specifier: ^16.4.5
         version: 16.4.5
       express-rate-limit:
-        specifier: ^7.3.1
-        version: 7.3.1(express@4.19.2)
+        specifier: ^7.4.0
+        version: 7.4.0(express@4.19.2)
       file-stream-rotator:
         specifier: ^1.0.0
         version: 1.0.0
@@ -1907,8 +1907,8 @@ packages:
     resolution: {integrity: sha512-2Zks0hf1VLFYI1kbh0I5jP3KHHyCHpkfyHBzsSXRFgl/Bg9mWYfMW8oD+PdMPlEwy5HNsR9JutYy6pMeOh61nw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  express-rate-limit@7.3.1:
-    resolution: {integrity: sha512-BbaryvkY4wEgDqLgD18/NSy2lDO2jTuT9Y8c1Mpx0X63Yz0sYd5zN6KPe7UvpuSVvV33T6RaE1o1IVZQjHMYgw==}
+  express-rate-limit@7.4.0:
+    resolution: {integrity: sha512-v1204w3cXu5gCDmAvgvzI6qjzZzoMWKnyVDk3ACgfswTQLYiGen+r8w0VnXnGMmzEN/g8fwIQ4JrFFd4ZP6ssg==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: 4 || 5 || ^5.0.0-beta.1
@@ -5252,7 +5252,7 @@ snapshots:
 
   '@types/express-rate-limit@6.0.0(express@4.19.2)':
     dependencies:
-      express-rate-limit: 7.3.1(express@4.19.2)
+      express-rate-limit: 7.4.0(express@4.19.2)
     transitivePeerDependencies:
       - express
 
@@ -6220,7 +6220,7 @@ snapshots:
       jest-message-util: 29.7.0
       jest-util: 29.7.0
 
-  express-rate-limit@7.3.1(express@4.19.2):
+  express-rate-limit@7.4.0(express@4.19.2):
     dependencies:
       express: 4.19.2
 
