@@ -7,7 +7,7 @@ settings:
 overrides:
   '@types/superagent': ^8.1.0
   '@typegoose/typegoose': ^12.9.1
-  mongodb: ^6.2.1
+  mongodb: ^6.11.0
   mongoose: 8.8.3
   formidable: ^3.2.4
   fast-xml-parser: ^4.4.1
