@@ -7,7 +7,7 @@ settings:
 overrides:
   '@types/superagent': ^8.1.0
   '@typegoose/typegoose': ^12.9.1
-  mongodb: ^6.11.0
+  mongodb: ^6.12.0
   mongoose: 8.8.3
   formidable: ^3.2.4
   fast-xml-parser: ^4.4.1
@@ -72,8 +72,8 @@ importers:
         specifier: ^2.2.3
         version: 2.2.3
       mongodb:
-        specifier: ^6.11.0
-        version: 6.11.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
+        specifier: ^6.12.0
+        version: 6.12.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
       mongoose:
         specifier: 8.8.3
         version: 8.8.3(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
@@ -2797,12 +2797,12 @@ packages:
   mongodb-connection-string-url@3.0.1:
     resolution: {integrity: sha512-XqMGwRX0Lgn05TDB4PyG2h2kKO/FfWJyCzYQbIhXUxz7ETt0I/FqHjUeqj37irJ+Dl1ZtU82uYyj14u2XsZKfg==}
 
-  mongodb@6.11.0:
-    resolution: {integrity: sha512-yVbPw0qT268YKhG241vAMLaDQAPbRyTgo++odSgGc9kXnzOujQI60Iyj23B9sQQFPSvmNPvMZ3dsFz0aN55KgA==}
+  mongodb@6.12.0:
+    resolution: {integrity: sha512-RM7AHlvYfS7jv7+BXund/kR64DryVI+cHbVAy9P61fnb1RcWZqOW1/Wj2YhqMCx+MuYhqTRGv7AwHBzmsCKBfA==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.188.0
-      '@mongodb-js/zstd': ^1.1.0
+      '@mongodb-js/zstd': ^1.1.0 || ^2.0.0
       gcp-metadata: ^5.2.0
       kerberos: ^2.0.1
       mongodb-client-encryption: '>=6.0.0 <7'
@@ -7344,7 +7344,7 @@ snapshots:
       '@types/whatwg-url': 11.0.5
       whatwg-url: 13.0.0
 
-  mongodb@6.11.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1):
+  mongodb@6.12.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1):
     dependencies:
       '@mongodb-js/saslprep': 1.1.9
       bson: 6.10.1
@@ -7357,7 +7357,7 @@ snapshots:
     dependencies:
       bson: 6.10.1
       kareem: 2.6.3
-      mongodb: 6.11.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
+      mongodb: 6.12.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
       mpath: 0.9.0
       mquery: 5.0.0
       ms: 2.1.3
