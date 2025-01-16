@@ -44,7 +44,7 @@
     "dotenv": "^16.4.7",
     "express-rate-limit": "^7.5.0",
     "file-stream-rotator": "^1.0.0",
-    "fs-extra": "^11.2.0",
+    "fs-extra": "^11.3.0",
     "helmet": "^8.0.0",
     "module-alias": "^2.2.3",
     "mongodb": "^6.12.0",
