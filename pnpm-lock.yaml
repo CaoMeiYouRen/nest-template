@@ -7,7 +7,7 @@ settings:
 overrides:
   '@types/superagent': ^8.1.0
   '@typegoose/typegoose': ^12.10.1
-  mongodb: ^6.12.0
+  mongodb: ^6.13.0
   mongoose: 8.9.5
   formidable: ^3.2.4
   fast-xml-parser: ^4.4.1
@@ -72,8 +72,8 @@ importers:
         specifier: ^2.2.3
         version: 2.2.3
       mongodb:
-        specifier: ^6.12.0
-        version: 6.12.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
+        specifier: ^6.13.0
+        version: 6.13.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
       mongoose:
         specifier: 8.9.5
         version: 8.9.5(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
@@ -1555,6 +1555,10 @@ packages:
     resolution: {integrity: sha512-P92xmHDQjSKPLHqFxefqMxASNq/aWJMEZugpCjf+AF/pgcUpMMQCg7t7+ewko0/u8AapvF3luf/FoehddEK+sA==}
     engines: {node: '>=16.20.1'}
 
+  bson@6.10.2:
+    resolution: {integrity: sha512-5afhLTjqDSA3akH56E+/2J6kTDuSIlBxyXPdQslj9hcIgOUE378xdOfZvC/9q3LifJNI6KR/juZ+d0NRNYBwXg==}
+    engines: {node: '>=16.20.1'}
+
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
@@ -2900,11 +2904,11 @@ packages:
   module-alias@2.2.3:
     resolution: {integrity: sha512-23g5BFj4zdQL/b6tor7Ji+QY4pEfNH784BMslY9Qb0UnJWRAt+lQGLYmRaM0KDBwIG23ffEBELhZDP2rhi9f/Q==}
 
-  mongodb-connection-string-url@3.0.1:
-    resolution: {integrity: sha512-XqMGwRX0Lgn05TDB4PyG2h2kKO/FfWJyCzYQbIhXUxz7ETt0I/FqHjUeqj37irJ+Dl1ZtU82uYyj14u2XsZKfg==}
+  mongodb-connection-string-url@3.0.2:
+    resolution: {integrity: sha512-rMO7CGo/9BFwyZABcKAWL8UJwH/Kc2x0g72uhDWzG48URRax5TCIcJ7Rc3RZqffZzO/Gwff/jyKwCU9TN8gehA==}
 
-  mongodb@6.12.0:
-    resolution: {integrity: sha512-RM7AHlvYfS7jv7+BXund/kR64DryVI+cHbVAy9P61fnb1RcWZqOW1/Wj2YhqMCx+MuYhqTRGv7AwHBzmsCKBfA==}
+  mongodb@6.13.0:
+    resolution: {integrity: sha512-KeESYR5TEaFxOuwRqkOm3XOsMqCSkdeDMjaW5u2nuKfX7rqaofp7JQGoi7sVqQcNJTKuveNbzZtWMstb8ABP6Q==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.188.0
@@ -3610,9 +3614,9 @@ packages:
   tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
 
-  tr46@4.1.1:
-    resolution: {integrity: sha512-2lv/66T7e5yNyhAAC4NaKe5nVavzuGJQVVtRYLyQ2OI8tsJ61PMLlelehb0wi2Hx6+hT/OJUWZcw8MjlSRnxvw==}
-    engines: {node: '>=14'}
+  tr46@5.0.0:
+    resolution: {integrity: sha512-tk2G5R2KRwBd+ZN0zaEXpmzdKyOYksXwywulIX95MBODjSzMIuQnQ3m8JxgbhnL1LeVo7lqQKsYa1O3Htl7K5g==}
+    engines: {node: '>=18'}
 
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
@@ -3832,9 +3836,9 @@ packages:
       webpack-cli:
         optional: true
 
-  whatwg-url@13.0.0:
-    resolution: {integrity: sha512-9WWbymnqj57+XEuqADHrCJ2eSXzn8WXIW/YSGaZtb2WKAInQ6CHfaUUcTyyver0p8BDg5StLQq8h1vtZuwmOig==}
-    engines: {node: '>=16'}
+  whatwg-url@14.1.0:
+    resolution: {integrity: sha512-jlf/foYIKywAt3x/XWKZ/3rz8OSJPiWktjmk891alJUEjiVxKX9LEO92qH3hv4aJ0mN3MWPvGMCy8jQi95xK4w==}
+    engines: {node: '>=18'}
 
   whatwg-url@5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
@@ -6049,6 +6053,8 @@ snapshots:
 
   bson@6.10.1: {}
 
+  bson@6.10.2: {}
+
   buffer-from@1.1.2: {}
 
   buffer@5.7.1:
@@ -7565,16 +7571,16 @@ snapshots:
 
   module-alias@2.2.3: {}
 
-  mongodb-connection-string-url@3.0.1:
+  mongodb-connection-string-url@3.0.2:
     dependencies:
       '@types/whatwg-url': 11.0.5
-      whatwg-url: 13.0.0
+      whatwg-url: 14.1.0
 
-  mongodb@6.12.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1):
+  mongodb@6.13.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1):
     dependencies:
       '@mongodb-js/saslprep': 1.1.9
-      bson: 6.10.1
-      mongodb-connection-string-url: 3.0.1
+      bson: 6.10.2
+      mongodb-connection-string-url: 3.0.2
     optionalDependencies:
       '@aws-sdk/credential-providers': 3.549.0
       socks: 2.8.1
@@ -7583,7 +7589,7 @@ snapshots:
     dependencies:
       bson: 6.10.1
       kareem: 2.6.3
-      mongodb: 6.12.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
+      mongodb: 6.13.0(@aws-sdk/credential-providers@3.549.0)(socks@2.8.1)
       mpath: 0.9.0
       mquery: 5.0.0
       ms: 2.1.3
@@ -8251,7 +8257,7 @@ snapshots:
 
   tr46@0.0.3: {}
 
-  tr46@4.1.1:
+  tr46@5.0.0:
     dependencies:
       punycode: 2.3.1
 
@@ -8489,9 +8495,9 @@ snapshots:
       - esbuild
       - uglify-js
 
-  whatwg-url@13.0.0:
+  whatwg-url@14.1.0:
     dependencies:
-      tr46: 4.1.1
+      tr46: 5.0.0
       webidl-conversions: 7.0.0
 
   whatwg-url@5.0.0:
