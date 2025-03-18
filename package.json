@@ -120,6 +120,10 @@
         "mongodb",
         "webpack"
       ]
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@nestjs/core",
+      "@scarf/scarf"
+    ]
   }
 }
