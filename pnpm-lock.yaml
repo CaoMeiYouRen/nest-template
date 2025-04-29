@@ -6,7 +6,7 @@ settings:
 
 overrides:
   '@types/superagent': ^8.1.0
-  '@typegoose/typegoose': ^12.14.0
+  '@typegoose/typegoose': ^12.15.0
   mongodb: ^6.16.0
   mongoose: 8.9.5
   formidable: ^3.2.4
@@ -34,8 +34,8 @@ importers:
         specifier: ^11.1.5
         version: 11.1.5(@nestjs/common@11.1.0(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0)(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)
       '@typegoose/typegoose':
-        specifier: ^12.14.0
-        version: 12.14.0(mongoose@8.9.5(socks@2.8.1))
+        specifier: ^12.15.0
+        version: 12.15.0(mongoose@8.9.5(socks@2.8.1))
       axios:
         specifier: ^1.9.0
         version: 1.9.0(debug@4.4.0)
@@ -86,7 +86,7 @@ importers:
         version: 2.1.2
       nestjs-typegoose-next:
         specifier: ^0.1.4
-        version: 0.1.4(@nestjs/common@11.1.0(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0)(@typegoose/typegoose@12.14.0(mongoose@8.9.5(socks@2.8.1)))(mongoose@8.9.5(socks@2.8.1))
+        version: 0.1.4(@nestjs/common@11.1.0(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0)(@typegoose/typegoose@12.15.0(mongoose@8.9.5(socks@2.8.1)))(mongoose@8.9.5(socks@2.8.1))
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -869,8 +869,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@typegoose/typegoose@12.14.0':
-    resolution: {integrity: sha512-9Gr9kvqDYabSbabv40VpsIIuxhKaNGv5uWcTYOBvzoPQ21toFOKs4jD3GtdOOcYJLYF+8I4Sj2R0inrFL2qFIw==}
+  '@typegoose/typegoose@12.15.0':
+    resolution: {integrity: sha512-tQsoBYyS92LNPlRgFH/qjkb6CZthTHpfTdd+niq36ETngUCwTXM5VQybRR5wIvrX8gYeq5lQ8PtcEzD1VXF8zw==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       mongoose: 8.9.5
@@ -2811,7 +2811,7 @@ packages:
     peerDependencies:
       '@nestjs/common': ^7.0.0 ||^8.0.0
       '@nestjs/core': ^7.0.0 ||^8.0.0
-      '@typegoose/typegoose': ^12.14.0
+      '@typegoose/typegoose': ^12.15.0
       mongoose: 8.9.5
 
   node-abort-controller@3.1.1:
@@ -4594,7 +4594,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@typegoose/typegoose@12.14.0(mongoose@8.9.5(socks@2.8.1))':
+  '@typegoose/typegoose@12.15.0(mongoose@8.9.5(socks@2.8.1))':
     dependencies:
       lodash: 4.17.21
       loglevel: 1.9.2
@@ -6798,11 +6798,11 @@ snapshots:
 
   nestjs-mongoose-crud@2.1.2: {}
 
-  nestjs-typegoose-next@0.1.4(@nestjs/common@11.1.0(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0)(@typegoose/typegoose@12.14.0(mongoose@8.9.5(socks@2.8.1)))(mongoose@8.9.5(socks@2.8.1)):
+  nestjs-typegoose-next@0.1.4(@nestjs/common@11.1.0(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0)(@typegoose/typegoose@12.15.0(mongoose@8.9.5(socks@2.8.1)))(mongoose@8.9.5(socks@2.8.1)):
     dependencies:
       '@nestjs/common': 11.1.0(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.0(@nestjs/common@11.1.0(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.1.0)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      '@typegoose/typegoose': 12.14.0(mongoose@8.9.5(socks@2.8.1))
+      '@typegoose/typegoose': 12.15.0(mongoose@8.9.5(socks@2.8.1))
       is-class: 0.0.9
       mongoose: 8.9.5(socks@2.8.1)
       reflect-metadata: 0.1.14
