@@ -3,7 +3,7 @@ import { Controller, Get } from '@nestjs/common'
 import { AppService } from './app.service'
 import { HttpError } from './models/HttpError'
 import { sleep } from './utils/helper'
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+
 const { name, version } = require('../package.json')
 
 @Controller()

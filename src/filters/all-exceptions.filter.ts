@@ -24,7 +24,6 @@ import { ResponseDto } from '@/models/ResponseDto'
  */
 @Catch()
 export class AllExceptionsFilter<T extends Error> implements ExceptionFilter {
-
     private readonly logger = new Logger(AllExceptionsFilter.name)
 
     catch(e: T, host: ArgumentsHost) {

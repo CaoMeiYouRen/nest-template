@@ -1,5 +1,4 @@
 export class ResponseDto {
-
     constructor(obj?: ResponseDto) {
         if (obj) {
             Object.assign(this, obj)

@@ -6,12 +6,12 @@ import { NestFactory } from '@nestjs/core'
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
 import { NestExpressApplication } from '@nestjs/platform-express'
 import helmet from 'helmet'
-import { AppModule } from './app.module'
-import { AllExceptionsFilter } from './filters/all-exceptions.filter'
-import { limiter } from './middlewares/limit.middleware'
-import { TimeoutInterceptor } from './interceptors/timeout.interceptor'
-import { consoleLogger, fileLogger } from './middlewares/logger.middleware'
 import { ValidationPipe } from '@nestjs/common'
+import { consoleLogger, fileLogger } from './middlewares/logger.middleware'
+import { TimeoutInterceptor } from './interceptors/timeout.interceptor'
+import { limiter } from './middlewares/limit.middleware'
+import { AllExceptionsFilter } from './filters/all-exceptions.filter'
+import { AppModule } from './app.module'
 
 async function bootstrap() {
     const app = await NestFactory.create<NestExpressApplication>(AppModule)

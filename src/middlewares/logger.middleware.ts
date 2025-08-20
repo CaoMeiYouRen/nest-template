@@ -1,5 +1,5 @@
-import morgan from 'morgan'
 import path from 'path'
+import morgan from 'morgan'
 import { getStream } from 'file-stream-rotator'
 import { timeFormat } from '@/utils/helper'
 const logDir = path.resolve('logs')

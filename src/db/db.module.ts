@@ -1,7 +1,7 @@
 import { Global, Module } from '@nestjs/common'
 import { TypegooseModule } from 'nestjs-typegoose-next'
-import { MONGODB_URL, MONGODB_USER, MONGODB_PASSWORD } from '@/app.config'
 import { User } from './models/User.model'
+import { MONGODB_URL, MONGODB_USER, MONGODB_PASSWORD } from '@/app.config'
 
 const models = TypegooseModule.forFeature([
     User,

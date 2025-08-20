@@ -18,7 +18,6 @@ import { IsNotEmpty, Length } from 'class-validator'
     },
 })
 export class User {
-
     @IsNotEmpty({ message: 'username 不能为空' })
     @prop({
         required: true,
@@ -42,7 +41,6 @@ export class User {
         },
     })
     password: string
-
 }
 
 export type UserDocument = DocumentType<User>
