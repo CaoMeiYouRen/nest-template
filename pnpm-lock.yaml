@@ -153,8 +153,8 @@ importers:
         specifier: ^9.33.0
         version: 9.33.0
       eslint-config-cmyr:
-        specifier: 2.0.0-beta.8
-        version: 2.0.0-beta.8(@typescript-eslint/parser@8.40.0(eslint@9.33.0)(typescript@5.9.2))(eslint@9.33.0)(typescript@5.9.2)
+        specifier: 2.0.0-beta.13
+        version: 2.0.0-beta.13(@typescript-eslint/parser@8.40.0(eslint@9.33.0)(typescript@5.9.2))(eslint@9.33.0)(typescript@5.9.2)
       gulp:
         specifier: ^5.0.1
         version: 5.0.1
@@ -1890,8 +1890,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-cmyr@2.0.0-beta.8:
-    resolution: {integrity: sha512-pogJk6shsbep71ySqLG95srFaIoUZWLkPp7YsD7oUu7OpvGsfCYPYUjnXZl2wZ6LSf+9C9oKYDo5I6sVPdnPdw==}
+  eslint-config-cmyr@2.0.0-beta.13:
+    resolution: {integrity: sha512-Emqaz/9Xut4rDkVfVMv/N6nnRSYAZSrxTVFlJ47RengbD4KdYgm6dnkxPWkXRUNyVW1DS5GUqCdXmMx5YU+ykA==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: '>=9'
@@ -6124,7 +6124,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-cmyr@2.0.0-beta.8(@typescript-eslint/parser@8.40.0(eslint@9.33.0)(typescript@5.9.2))(eslint@9.33.0)(typescript@5.9.2):
+  eslint-config-cmyr@2.0.0-beta.13(@typescript-eslint/parser@8.40.0(eslint@9.33.0)(typescript@5.9.2))(eslint@9.33.0)(typescript@5.9.2):
     dependencies:
       '@eslint/js': 9.33.0
       '@stylistic/eslint-plugin': 5.2.3(eslint@9.33.0)
