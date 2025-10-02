@@ -70,7 +70,7 @@
     "@types/jest": "^30.0.0",
     "@types/module-alias": "^2.0.4",
     "@types/morgan": "^1.9.10",
-    "@types/node": "^24.6.1",
+    "@types/node": "^24.6.2",
     "@types/supertest": "^6.0.3",
     "cross-env": "^10.1.0",
     "debug": "^4.4.3",
