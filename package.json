@@ -33,7 +33,7 @@
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.9",
     "@nestjs/platform-express": "^11.1.9",
-    "@nestjs/swagger": "^11.2.2",
+    "@nestjs/swagger": "^11.2.3",
     "@typegoose/typegoose": "^12.20.0",
     "axios": "^1.13.2",
     "bcryptjs": "^3.0.3",
