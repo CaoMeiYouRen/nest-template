@@ -74,8 +74,8 @@ importers:
         specifier: ^8.1.0
         version: 8.1.0
       module-alias:
-        specifier: ^2.2.3
-        version: 2.2.3
+        specifier: ^2.3.4
+        version: 2.3.4
       mongodb:
         specifier: ^7.1.0
         version: 7.1.0
@@ -2991,8 +2991,8 @@ packages:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
     hasBin: true
 
-  module-alias@2.2.3:
-    resolution: {integrity: sha512-23g5BFj4zdQL/b6tor7Ji+QY4pEfNH784BMslY9Qb0UnJWRAt+lQGLYmRaM0KDBwIG23ffEBELhZDP2rhi9f/Q==}
+  module-alias@2.3.4:
+    resolution: {integrity: sha512-bOclZt8hkpuGgSSoG07PKmvzTizROilUTvLNyrMqvlC9snhs7y7GzjNWAVbISIOlhCP1T14rH1PDAV9iNyBq/w==}
 
   mongodb-connection-string-url@7.0.1:
     resolution: {integrity: sha512-h0AZ9A7IDVwwHyMxmdMXKy+9oNlF0zFoahHiX3vQ8e3KFcSP3VmsmfvtRSuLPxmyv2vjIDxqty8smTgie/SNRQ==}
@@ -7402,7 +7402,7 @@ snapshots:
     dependencies:
       minimist: 1.2.8
 
-  module-alias@2.2.3: {}
+  module-alias@2.3.4: {}
 
   mongodb-connection-string-url@7.0.1:
     dependencies:
