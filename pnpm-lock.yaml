@@ -6,7 +6,7 @@ settings:
 
 overrides:
   '@types/superagent': ^8.1.0
-  '@typegoose/typegoose': ^13.1.0
+  '@typegoose/typegoose': ^13.2.0
   mongodb: ^7.1.0
   mongoose: 8.9.5
   formidable: ^3.2.4
@@ -38,8 +38,8 @@ importers:
         specifier: ^11.2.6
         version: 11.2.6(@nestjs/common@11.1.14(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)
       '@typegoose/typegoose':
-        specifier: ^13.1.0
-        version: 13.1.0(mongoose@8.9.5)
+        specifier: ^13.2.0
+        version: 13.2.0(mongoose@8.9.5)
       axios:
         specifier: ^1.13.6
         version: 1.13.6(debug@4.4.3)
@@ -90,7 +90,7 @@ importers:
         version: 2.1.2
       nestjs-typegoose-next:
         specifier: ^0.1.4
-        version: 0.1.4(@nestjs/common@11.1.14(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(@typegoose/typegoose@13.1.0(mongoose@8.9.5))(mongoose@8.9.5)
+        version: 0.1.4(@nestjs/common@11.1.14(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(@typegoose/typegoose@13.2.0(mongoose@8.9.5))(mongoose@8.9.5)
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -912,8 +912,8 @@ packages:
   '@tybys/wasm-util@0.10.1':
     resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
 
-  '@typegoose/typegoose@13.1.0':
-    resolution: {integrity: sha512-ZAD209rhEGHNJ3eBqeFl2guUXgKGgR6xTP6LNmxciN6GbdznqLLdX4nsm2wafQpd4bxb8v0vmHe4z4QvVIj8CQ==}
+  '@typegoose/typegoose@13.2.0':
+    resolution: {integrity: sha512-XDPiQh7gm0Cc02/wc54jJTSbXwIWESgQCdUWfb01LWfe30/FKFuQj8Acj9WGns/hqLF0yD2Fay7Iuy6WoM4YeA==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       mongoose: 8.9.5
@@ -2872,9 +2872,6 @@ packages:
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
 
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-
   lodash@4.17.23:
     resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
 
@@ -3083,7 +3080,7 @@ packages:
     peerDependencies:
       '@nestjs/common': ^7.0.0 ||^8.0.0
       '@nestjs/core': ^7.0.0 ||^8.0.0
-      '@typegoose/typegoose': ^13.1.0
+      '@typegoose/typegoose': ^13.2.0
       mongoose: 8.9.5
 
   node-abort-controller@3.1.1:
@@ -3461,6 +3458,11 @@ packages:
 
   semver@7.7.3:
     resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4987,13 +4989,13 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@typegoose/typegoose@13.1.0(mongoose@8.9.5)':
+  '@typegoose/typegoose@13.2.0(mongoose@8.9.5)':
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.23
       loglevel: 1.9.2
       mongoose: 8.9.5
       reflect-metadata: 0.2.2
-      semver: 7.7.3
+      semver: 7.7.4
       tslib: 2.8.1
 
   '@types/babel__core@7.20.5':
@@ -5210,7 +5212,7 @@ snapshots:
       '@typescript-eslint/visitor-keys': 8.53.0
       debug: 4.4.3
       minimatch: 9.0.5
-      semver: 7.7.3
+      semver: 7.7.4
       tinyglobby: 0.2.15
       ts-api-utils: 2.4.0(typescript@5.9.3)
       typescript: 5.9.3
@@ -6432,7 +6434,7 @@ snapshots:
       minimatch: 3.1.2
       node-abort-controller: 3.1.1
       schema-utils: 3.3.0
-      semver: 7.7.3
+      semver: 7.7.4
       tapable: 2.3.0
       typescript: 5.9.3
       webpack: 5.104.1
@@ -6879,7 +6881,7 @@ snapshots:
       '@babel/parser': 7.28.5
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.2
-      semver: 7.7.3
+      semver: 7.7.4
     transitivePeerDependencies:
       - supports-color
 
@@ -7165,7 +7167,7 @@ snapshots:
       jest-message-util: 30.2.0
       jest-util: 30.2.0
       pretty-format: 30.2.0
-      semver: 7.7.3
+      semver: 7.7.4
       synckit: 0.11.11
     transitivePeerDependencies:
       - supports-color
@@ -7310,8 +7312,6 @@ snapshots:
 
   lodash.merge@4.6.2: {}
 
-  lodash@4.17.21: {}
-
   lodash@4.17.23: {}
 
   log-symbols@4.1.0:
@@ -7333,7 +7333,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
 
   make-error@1.3.6: {}
 
@@ -7480,11 +7480,11 @@ snapshots:
 
   nestjs-mongoose-crud@2.1.2: {}
 
-  nestjs-typegoose-next@0.1.4(@nestjs/common@11.1.14(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(@typegoose/typegoose@13.1.0(mongoose@8.9.5))(mongoose@8.9.5):
+  nestjs-typegoose-next@0.1.4(@nestjs/common@11.1.14(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(@typegoose/typegoose@13.2.0(mongoose@8.9.5))(mongoose@8.9.5):
     dependencies:
       '@nestjs/common': 11.1.14(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.14(@nestjs/common@11.1.14(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.1.14)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      '@typegoose/typegoose': 13.1.0(mongoose@8.9.5)
+      '@typegoose/typegoose': 13.2.0(mongoose@8.9.5)
       is-class: 0.0.9
       mongoose: 8.9.5
       reflect-metadata: 0.1.14
@@ -7870,6 +7870,8 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.7.3: {}
+
+  semver@7.7.4: {}
 
   send@1.2.1:
     dependencies:
