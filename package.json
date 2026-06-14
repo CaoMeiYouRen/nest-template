@@ -61,7 +61,7 @@
   "devDependencies": {
     "@nestjs/cli": "^11.0.23",
     "@nestjs/schematics": "^11.1.0",
-    "@nestjs/testing": "^11.1.24",
+    "@nestjs/testing": "^11.1.26",
     "@types/debug": "^4.1.13",
     "@types/express": "^5.0.6",
     "@types/fs-extra": "^11.0.4",
