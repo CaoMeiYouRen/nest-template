@@ -47,7 +47,7 @@
     "fs-extra": "^11.4.0",
     "helmet": "^8.3.0",
     "module-alias": "2.2.3",
-    "mongodb": "^7.4.0",
+    "mongodb": "^7.6.0",
     "mongoose": "8.24.1",
     "morgan": "^1.11.0",
     "nestjs-mongoose-crud": "^2.1.2",
