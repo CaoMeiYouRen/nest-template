@@ -36,6 +36,7 @@ peerDependencyRules:
 
 allowBuilds:
   '@nestjs/core': true
+  '@parcel/watcher': set this to true or false
   '@scarf/scarf': true
   unrs-resolver: true
 
