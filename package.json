@@ -17,6 +17,7 @@
     "lint": "cross-env NODE_ENV=production eslint src test --fix --ext .ts,.js",
     "prebuild": "rimraf dist",
     "build": "nest build",
+    "typecheck": "tsc --noEmit",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start:dev": "nest start",
     "dev": "cross-env NODE_ENV=development nest start --watch",
