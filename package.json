@@ -78,7 +78,7 @@
     "gulp": "^5.0.1",
     "jest": "^30.4.2",
     "source-map-support": "^0.5.21",
-    "supertest": "^7.2.2",
+    "supertest": "^7.3.1",
     "ts-jest": "^29.4.13",
     "ts-loader": "^9.6.2",
     "ts-node": "^10.9.2",
