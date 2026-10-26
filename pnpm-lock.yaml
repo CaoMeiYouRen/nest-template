@@ -9,7 +9,7 @@ overrides:
   '@types/superagent': ^8.1.0
   '@typegoose/typegoose': ^13.5.0
   mongodb: ^7.7.0
-  mongoose: 9.11.3
+  mongoose: 9.11.4
   formidable: ^3.2.4
   fast-xml-parser: ^4.4.1
   cookie: ^0.7.0
@@ -51,7 +51,7 @@ importers:
         version: 11.4.7(@nestjs/common@11.2.7(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(@nestjs/core@11.2.1)(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)
       '@typegoose/typegoose':
         specifier: ^13.5.0
-        version: 13.5.0(mongoose@9.11.3)
+        version: 13.5.0(mongoose@9.11.4)
       axios:
         specifier: ^1.20.0
         version: 1.20.0(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1)
@@ -92,8 +92,8 @@ importers:
         specifier: ^7.7.0
         version: 7.7.0
       mongoose:
-        specifier: 9.11.3
-        version: 9.11.3
+        specifier: 9.11.4
+        version: 9.11.4
       morgan:
         specifier: ^1.12.1
         version: 1.12.1(supports-color@8.1.1)
@@ -102,7 +102,7 @@ importers:
         version: 2.1.2
       nestjs-typegoose-next:
         specifier: ^0.1.4
-        version: 0.1.4(@nestjs/common@11.2.7(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(@nestjs/core@11.2.1)(@typegoose/typegoose@13.5.0(mongoose@9.11.3))(mongoose@9.11.3)
+        version: 0.1.4(@nestjs/common@11.2.7(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(@nestjs/core@11.2.1)(@typegoose/typegoose@13.5.0(mongoose@9.11.4))(mongoose@9.11.4)
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -973,7 +973,7 @@ packages:
     resolution: {integrity: sha512-RnOq5DK3u/X2JrenVRttxu/UDTH3cruHT+oNuZXHBYjNRe3x7ftGM27vD0R+xFFlBzRYLpEH8NLPmaM4C2cPZQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
-      mongoose: 9.11.3
+      mongoose: 9.11.4
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -3152,8 +3152,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@9.11.3:
-    resolution: {integrity: sha512-U6HaDL0A738IHlYiWf5mE4V5G6DPRmcSPh+YDSma8AKCHS+HbugwN4b6EcDSnooSHnrd27K35bKd639j3d079A==}
+  mongoose@9.11.4:
+    resolution: {integrity: sha512-+xME0fduXl1sWF+NZpJHZaNcwQSt+X2vbJ/h7GRSZ/ltLycAkGZSEABhzic0+q3IMF66KqF0viEE5+frchKCAQ==}
     engines: {node: '>=20.19.0'}
 
   morgan@1.12.1:
@@ -3164,8 +3164,8 @@ packages:
     resolution: {integrity: sha512-ikJRQTk8hw5DEoFVxHG1Gn9T/xcjtdnOKIU1JTmGjZZlg9LST2mBLmcX3/ICIbgJydT2GOc15RnNy5mHmzfSew==}
     engines: {node: '>=4.0.0'}
 
-  mquery@6.0.0:
-    resolution: {integrity: sha512-b2KQNsmgtkscfeDgkYMcWGn9vZI9YoXh802VDEwE6qc50zxBFQ0Oo8ROkawbPAsXCY1/Z1yp0MagqsZStPWJjw==}
+  mquery@6.0.1:
+    resolution: {integrity: sha512-/Nijmq3JcpHwDM+5CwBp5yEl6fUa6jLsIhPsoQywlGXU/ZrKIvSpBzfaGnW9BLqcne/CoUwd1ch7MRqptDgFTA==}
     engines: {node: '>=20.19.0'}
 
   ms@2.0.0:
@@ -3211,7 +3211,7 @@ packages:
       '@nestjs/common': ^7.0.0 ||^8.0.0
       '@nestjs/core': ^7.0.0 ||^8.0.0
       '@typegoose/typegoose': ^13.5.0
-      mongoose: 9.11.3
+      mongoose: 9.11.4
 
   node-abort-controller@3.1.1:
     resolution: {integrity: sha512-AGK2yQKIjRuqnc6VkX2Xj5d+QW8xZ87pa1UK6yA6ouUyuxfHuMP6umE5QK7UmTeOAymo+Zx1Fxiuw9rVx8taHQ==}
@@ -5190,11 +5190,11 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@typegoose/typegoose@13.5.0(mongoose@9.11.3)':
+  '@typegoose/typegoose@13.5.0(mongoose@9.11.4)':
     dependencies:
       lodash: 4.18.1
       loglevel: 1.9.2
-      mongoose: 9.11.3
+      mongoose: 9.11.4
       reflect-metadata: 0.2.2
       semver: 7.8.5
       tslib: 2.8.1
@@ -7712,13 +7712,13 @@ snapshots:
       bson: 7.3.2
       mongodb-connection-string-url: 7.0.2
 
-  mongoose@9.11.3:
+  mongoose@9.11.4:
     dependencies:
       '@standard-schema/spec': 1.1.0
       kareem: 3.4.1
       mongodb: 7.7.0
       mpath: 0.9.0
-      mquery: 6.0.0
+      mquery: 6.0.1
       ms: 2.1.3
       sift: 17.1.3
     transitivePeerDependencies:
@@ -7742,7 +7742,7 @@ snapshots:
 
   mpath@0.9.0: {}
 
-  mquery@6.0.0: {}
+  mquery@6.0.1: {}
 
   ms@2.0.0: {}
 
@@ -7768,13 +7768,13 @@ snapshots:
 
   nestjs-mongoose-crud@2.1.2: {}
 
-  nestjs-typegoose-next@0.1.4(@nestjs/common@11.2.7(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(@nestjs/core@11.2.1)(@typegoose/typegoose@13.5.0(mongoose@9.11.3))(mongoose@9.11.3):
+  nestjs-typegoose-next@0.1.4(@nestjs/common@11.2.7(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(@nestjs/core@11.2.1)(@typegoose/typegoose@13.5.0(mongoose@9.11.4))(mongoose@9.11.4):
     dependencies:
       '@nestjs/common': 11.2.7(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1)
       '@nestjs/core': 11.2.1(@nestjs/common@11.2.7(class-transformer@0.5.1)(class-validator@0.15.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(@nestjs/platform-express@11.2.7)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      '@typegoose/typegoose': 13.5.0(mongoose@9.11.3)
+      '@typegoose/typegoose': 13.5.0(mongoose@9.11.4)
       is-class: 0.0.9
-      mongoose: 9.11.3
+      mongoose: 9.11.4
       reflect-metadata: 0.1.14
 
   node-abort-controller@3.1.1:
