@@ -43,7 +43,7 @@
     "class-validator": "^0.15.1",
     "dayjs": "^1.11.23",
     "dotenv": "^18.0.9",
-    "express-rate-limit": "^8.7.2",
+    "express-rate-limit": "^8.7.3",
     "file-stream-rotator": "^1.0.0",
     "fs-extra": "^11.4.1",
     "helmet": "^8.3.0",
