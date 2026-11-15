@@ -8,7 +8,7 @@ overrides:
   multer: ^2.2.0
   '@types/superagent': ^8.1.0
   '@typegoose/typegoose': ^13.5.0
-  mongodb: ^7.8.0
+  mongodb: ^7.9.0
   mongoose: 9.12.1
   formidable: ^3.2.4
   fast-xml-parser: ^4.4.1
@@ -89,8 +89,8 @@ importers:
         specifier: 2.2.3
         version: 2.2.3
       mongodb:
-        specifier: ^7.8.0
-        version: 7.8.0
+        specifier: ^7.9.0
+        version: 7.9.0
       mongoose:
         specifier: 9.12.1
         version: 9.12.1
@@ -3241,8 +3241,8 @@ packages:
     resolution: {integrity: sha512-ZoS07RoFqpKYQwAk59qmrx8+jJHNHU30UjlU96QktiGn1ltvDr+vCznLX5DiUBLEpMAHatHNWV1nM/74ul66kA==}
     engines: {node: '>=20.19.0'}
 
-  mongodb@7.8.0:
-    resolution: {integrity: sha512-p2NKagbQ41+daACG/ZSvhTzeAo+DoEyWE9Cmpf/SyP3pTC43+X0mwKE/44PpKtCxp5wOxnXz+t2pXEZRSkt9Yg==}
+  mongodb@7.9.0:
+    resolution: {integrity: sha512-HfpNb8qmfmNxno+Ml5JgHn/nyshK+8xF4ESLCXedRKuGLGRyAvkjcpjk19T2Q+rqC6/FlnZKll4if21R6xs/Tg==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.806.0
@@ -7912,7 +7912,7 @@ snapshots:
       '@types/whatwg-url': 13.0.0
       whatwg-url: 14.2.0
 
-  mongodb@7.8.0:
+  mongodb@7.9.0:
     dependencies:
       '@mongodb-js/saslprep': 1.5.0
       bson: 7.3.2
@@ -7922,7 +7922,7 @@ snapshots:
     dependencies:
       '@standard-schema/spec': 1.1.0
       kareem: 3.4.1
-      mongodb: 7.8.0
+      mongodb: 7.9.0
       mpath: 0.9.0
       mquery: 6.0.1
       ms: 2.1.3
